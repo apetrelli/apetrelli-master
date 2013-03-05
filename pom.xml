@@ -13,27 +13,13 @@
 		<developerConnection>scm:git:git@github.com:apetrelli/apetrelli-master.git</developerConnection>
 	</scm>
 	<distributionManagement>
-		<repositories>
-			<repository>
-				<id>sonatype-nexus-snapshots</id>
-				<releases>
-					<enabled>false</enabled>
-				</releases>
-				<snapshots>
-					<enabled>true</enabled>
-				</snapshots>
-				<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			</repository>
-			<repository>
-				<id>sonatype-nexus-releases</id>
-				<releases>
-					<enabled>true</enabled>
-				</releases>
-				<snapshots>
-					<enabled>false</enabled>
-				</snapshots>
-				<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-			</repository>
-		</repositories>
+		<snapshotRepository>
+			<id>sonatype-nexus-snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>sonatype-nexus-releases</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+		</repository>
 	</distributionManagement>
 </project>
