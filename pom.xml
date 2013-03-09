@@ -10,7 +10,7 @@
 	<scm>
 		<url>scm:git:https://github.com/apetrelli/apetrelli-master</url>
 		<connection>scm:git:git://github.com/apetrelli/apetrelli-master.git</connection>
-		<developerConnection>scm:git:git@github.com:apetrelli/apetrelli-master.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/apetrelli/apetrelli-master.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<snapshotRepository>
