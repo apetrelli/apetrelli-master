@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.apetrelli</groupId>
 	<artifactId>apetrelli-master</artifactId>
@@ -16,8 +17,17 @@
 		<url>scm:git:https://github.com/apetrelli/apetrelli-master</url>
 		<connection>scm:git:git://github.com/apetrelli/apetrelli-master.git</connection>
 		<developerConnection>scm:git:https://github.com/apetrelli/apetrelli-master.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
+	<developers>
+		<developer>
+			<name>Antonio Petrelli</name>
+			<email>antonio DOT petrelli AT gmail DOT com</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
 	<profiles>
 		<profile>
 			<id>release</id>
@@ -65,4 +75,5 @@
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
 		</repository>
 	</distributionManagement>
+	<url>https://github.com/apetrelli/apetrelli-master/</url>
 </project>
